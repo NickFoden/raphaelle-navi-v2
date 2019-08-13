@@ -1,0 +1,169 @@
+.album_container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.album_container ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  margin: 1rem auto;
+}
+
+.album_container li {
+  padding: 1rem;
+}
+
+.album_container li img {
+  transition-duration: .25s;
+  width: 5rem;
+}
+
+.album_container li img:hover {
+  transform: scale(1.2);
+}
+
+.about-container {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 5rem;
+}
+
+.about-container h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-top: 3rem;
+  line-height: 2.5rem;
+}
+
+.about-container p {
+  line-height: 1.5;
+}
+
+.about-image {
+  align-items: center;
+  margin-bottom: 150px;
+  width: 350px;
+}
+
+.DinahLandingPage {
+  width: 90vw;
+}
+
+.DinahRightSpray {
+  display: none;
+}
+
+.landing-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.main-page-carousel {
+  margin: 2rem;
+  max-width: 50rem;
+}
+
+.main-page-carousel img {
+  cursor: default;
+  object-fit: contain;
+}
+
+.main-page-container {
+  margin: 10 auto;
+  width: 80vw;
+}
+@media only screen and (max-width: 1050px) {
+  .about-image {
+    margin: 75px 15px 15px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .about-image {
+    margin: 100px 15px 15px;
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .about-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+  .about-container p {
+    padding: 0 3rem;
+    margin-bottom: 0;
+  }
+
+  .index-logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .about-image {
+    margin: 0;
+    width: 175px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about-container {
+    margin: 1rem;
+  }
+
+  .about-image {
+    margin-bottom: 0;
+    margin-left: 100px;
+    width: 175px;
+  }
+
+  .DinahLandingPage {
+    display: none;
+  }
+
+  .DinahRightSpray {
+    display: block;
+    margin-top: 25px;
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about-container {
+    margin: 1rem;
+  }
+
+  .album_container ul {
+    grid-template-columns: 1fr 1fr;
+    width: 60vw;
+    padding: 0;
+  }
+
+  .album_container li img {
+    width: 75px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .about-container {
+    margin: 1rem;
+  }
+
+  .about-image {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .about-container {
+    margin: 0 2rem;
+  }
+
+  .about-image {
+    margin: 0;
+  }
+}

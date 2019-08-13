@@ -1,0 +1,24 @@
+.modal-close {
+  background-color: transparent;
+  border: none;
+  color: #788f8e;
+  cursor: pointer;
+  float: right;
+  font-size: 25px;
+  margin-top: 0;
+  margin-right: -0.5rem;
+  margin-bottom: .5rem;
+  transition-duration: .25s;
+}
+
+.modal-close:hover {
+  transform: scale(1.5);
+}
+
+/* .react-modal {
+    background-color: #788f8e;
+  }
+  
+  .react-modal-overlay {
+    background-color: red;
+  } */

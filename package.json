@@ -3,18 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dotenv": "^8.0.0",
     "navi": "0.13.3",
     "navi-scripts": "0.13.3",
+    "nuka-carousel": "^4.5.9",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-modal": "^3.9.1",
     "react-navi": "0.13.5",
     "react-scripts-mdx": "3.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && navi-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "navi-scripts serve"
   },
   "eslintConfig": {
     "extends": "react-app"
