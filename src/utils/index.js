@@ -1,6 +1,6 @@
 export const CarouselSettings = {
   autoplay: true,
-  autoplayInterval: 1000,
+  autoplayInterval: 2000,
   slidesToShow: 1,
   transitionMode: "fade",
   withoutControls: true,

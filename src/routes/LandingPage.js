@@ -4,6 +4,7 @@ import { CarouselSettings } from "../utils";
 //import DinahLandingPage from "../../assets/about/newTwoMirror.jpg";
 //import DinahRightSpray from "../../assets/about/DinahRightSpray.jpg";
 import Photos from "../assets/index";
+import "./pages.css";
 
 const LandingPage = () => {
   return (

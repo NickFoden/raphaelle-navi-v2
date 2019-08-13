@@ -11,9 +11,10 @@ export default {
   a: {
     key: "a",
     image: v21_1x,
-    image2: v21_2x
+    image2: v21_2x,
+    title: "v21"
   },
-  b: { key: "b", image: v22_1x, image2: v22_2x },
-  c: { key: "c", image: v23_1x, image2: v23_2x },
-  d: { key: "d", image: v24_1x, image2: v24_2x }
+  b: { key: "b", image: v22_1x, image2: v22_2x, title: "v22" },
+  c: { key: "c", image: v23_1x, image2: v23_2x, title: "v23" },
+  d: { key: "d", image: v24_1x, image2: v24_2x, title: "v24" }
 };
