@@ -22,5 +22,14 @@ export default mount({
 
       return import("./Hair.js");
     }
+  }),
+
+  "/makeup": route({
+    title: "Makeup",
+    getView: async () => {
+      await new Promise(resolve => setTimeout(resolve, 1000));
+
+      return import("./Makeup.js");
+    }
   })
 });
