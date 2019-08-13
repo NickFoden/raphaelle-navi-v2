@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../src/components/Nav/Header";
 import { Link, View, NotFoundBoundary, useLoadingRoute } from "react-navi";
 import { MDXProvider } from "@mdx-js/react";
-import "./app.css";
+import "./App.css";
 
 function App() {
   let loadingRoute = useLoadingRoute();
