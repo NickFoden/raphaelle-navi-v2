@@ -37,10 +37,14 @@ class Hair extends Component {
           {Object.values(Photos).map(item => (
             <li
               key={item.key}
-              onClick={e => this.setPhoto(e, item.image)}
+              onClick={e => this.setPhoto(e, item.image2)}
               style={{ cursor: "pointer" }}
             >
-              <img src={item.image} alt={item.title} />
+              <img
+                src={item.image}
+                alt={item.title}
+                srcSet={(`${item.image} 1x`, `${item.image2} 2x`)}
+              />
             </li>
           ))}
         </ul>
